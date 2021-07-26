@@ -1,13 +1,12 @@
-//
-// Created by Matteo Fusilli on 26/07/2021.
-//
+#include <iostream>
 
 #ifndef CPP_CMD_OPENCV_FACEDETECTION_H
 #define CPP_CMD_OPENCV_FACEDETECTION_H
 
 
-class FaceDetection {
-
+class facedetection {
+    public:
+        void FaceDetect(std::string path);
 };
 
 
